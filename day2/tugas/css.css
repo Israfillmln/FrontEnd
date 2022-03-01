@@ -1,0 +1,84 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body{
+    margin: 5;
+    padding: 5;
+    /* width: 800px; */
+}
+
+.body{
+    background-color: black;
+    line-height: 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.first-container {
+    background-color: darkgrey;
+
+    display: flex;
+    /* border: 1px solid black; */
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+
+.photo{
+    height: 100px;
+    width: 600px;
+}
+
+.second-container{
+    background-color: whitesmoke;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.nama h2{
+    margin-top: auto;
+    font-size: xx-large;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.nama p{
+    text-align: center;
+    font-size: medium;
+    color: rgb(138, 138, 138);  
+}
+.third-container{
+    background-color: whitesmoke;
+    display: flex;
+    height: 750px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+.third-container div {
+    line-height: 1.75;
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
