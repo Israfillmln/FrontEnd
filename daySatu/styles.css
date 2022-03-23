@@ -1,0 +1,74 @@
+
+/* =================================================- */
+/* h1 {
+    color: #088c37;
+  } */
+  
+  body, h1 {
+    color: rgb(80, 80, 80);
+    background-color: rgb(161, 161, 161);
+    font-family: sans-serif, /*Arial, Helvetica  */ ;
+  }
+  
+  /* * {
+    font-family: sans-serif;
+    color: red;
+    box-sizing: border-box;
+  }
+   */
+  /* #welcomeMessage {
+    color: grey;
+  } */
+  
+  /* #blackText {
+    color: black;
+  } */
+  
+  /* .text-black {
+    color: black;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+  
+  .text-italic {
+    font-style: italic;
+  }
+   */
+  .card {
+    /* border: 2px solid lightslategray; */
+    padding: 16px 32px;
+    color: grey;
+    /* border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px; */
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    /* overflow: scroll; */
+  }
+  
+  /* .separator {
+    margin-top: 16px;
+  } */
+  
+  .black-card {
+    width: 215px;
+    height: 114px;
+    background-color: black;
+    padding-top: 16px;
+    padding-left: 18px;
+  }
+  
+  .black-card-title {
+    font-size: 9px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .black-card-subtitle {
+    font-weight: 500;
+    font-size: 7px;
+    color: white;
+    margin-top: 4px;
+  }
