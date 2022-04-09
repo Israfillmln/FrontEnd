@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 #container {
@@ -41,13 +41,13 @@
   font-weight: bolder;
 }
 
-.item .cart:hover {
+.item .cart:hover, .item .icon:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
 .item #color {
-  font-size: x-large;
+  font-size: medium;
   font-weight: normal;
 }
 
@@ -106,7 +106,7 @@
   background-color: black;
   font-size: x-small;
   margin-top: 50px;
-  transition: all 500ms ease-in;
+  transition: all 150ms ease-out;
 }
 
 .cart-button:hover{
@@ -114,5 +114,5 @@
   cursor: pointer;
   background-color: whitesmoke;
   color: black;
-  border-radius: 3px;
+  border-radius: 30px;
 }
