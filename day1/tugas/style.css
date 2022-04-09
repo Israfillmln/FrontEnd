@@ -1,24 +1,21 @@
 * {
   box-sizing: border-box;
-  font-family: Inter, sans-serif;
+  /* box-sizing = supaya tidak memengaruhi height dan width */
+  font-family: 'Inter', sans-serif;
 }
 
-#container {
-  display: inline-flex;
-  justify-content: center;
+#container div.image, #container div.item {
+  display: inline-block;
 }
 
 .image {
   width: fit-content;
   height: fit-content;
-  margin-top: 50px;
   /* border: solid hotpink; */
 }
 
 .item {
   margin-left: 40px;
-  width: fit-content;
-  height: fit-content;
   overflow: scroll;
   display: inline;
   text-align: start;
@@ -26,18 +23,16 @@
 }
 
 .item .icon {
-  width: 21px;
-  height: 21px;
-  margin-left: 410px;
+  width: 20px;
+  height: 20px;
+  margin-left: 380px;
   background-color: black;
 }
 
 .item .cart {
-  display: inline;
-  margin-left: 400px;
-  width: 87px;
-  height: 15px;
-  font-size: xx-small;
+  margin-top: 5px;
+  margin-left: 367.5px;
+  font-size: x-small;
   font-weight: bolder;
 }
 
@@ -52,29 +47,27 @@
 }
 
 .item #name {
-  margin-top: 4px;
-  font-size: x-large;
+  margin-top: 5px;
+  font-size: xx-large;
   font-weight: 800;
 }
 
 .item #price {
-  width: 100px;
-  height: 30px;
-  margin-top: 30px;
+  margin-top: 15px;
   font-weight: bold;
 }
 
 .item #desc {
   width: 350px;
   height: 135px;
-  margin-top: 30px;
+  margin-top: 50px;
   font-size: small;
-  color: #6666664d;
+  color: rgb(0, 0, 0, 0.3);
 }
 
 .item #size #mode {
-  color: #000000b7;
-  font-size: x-small;
+  color: rgb(0, 0, 0, 0.3);
+  font-size: small;
 }
 
 .item #size .mode {
@@ -86,21 +79,18 @@
 .item #size .mode:hover{
   cursor: pointer;
   background-color: tomato;
-  list-style: circle;
 }
 
 .item #note {
-  width: 85px;
-  height: 30px;
-  margin-left: 355px;
-  display: inline-block;
-  font-size: xx-small;
+  margin-top: 7.5px;
+  margin-left: 367.5px;
+  font-size: x-small;
   color:#000000b7;
   text-align: right;
 }
 
 .cart-button {
-  width: 145px;
+  width: 150px;
   height: 50px;
   color: white;
   background-color: black;
@@ -112,7 +102,8 @@
 .cart-button:hover{
   text-decoration: underline;
   cursor: pointer;
+  font-size: small;
   background-color: whitesmoke;
   color: black;
-  border-radius: 30px;
+  border-radius: 25px;
 }
