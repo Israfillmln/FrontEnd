@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
   /* box-sizing = supaya tidak memengaruhi height dan width */
-  font-family: 'Inter', sans-serif;
+  font-family: Inter,
+    sans-serif;
 }
 
-#container div.image, #container div.item {
+#container div.image,
+#container div.item {
   display: inline-block;
 }
 
@@ -15,8 +17,7 @@
 }
 
 .item {
-  margin-left: 40px;
-  overflow: scroll;
+  padding-left: 40px;
   display: inline;
   text-align: start;
   /* border: solid hotpink; */
@@ -25,31 +26,35 @@
 .item .icon {
   width: 20px;
   height: 20px;
-  margin-left: 380px;
+  margin-left: calc(420px - 40px);
   background-color: black;
 }
 
 .item .cart {
+  margin: 0;
   margin-top: 5px;
-  margin-left: 367.5px;
-  font-size: x-small;
-  font-weight: bolder;
+  margin-left: calc(400px - 40px);
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 900;
 }
 
-.item .cart:hover, .item .icon:hover {
+.item .cart:hover,
+.item .icon:hover {
   text-decoration: underline;
   cursor: pointer;
 }
 
+.item .product-name {
+  font-size: 36px;
+}
+
 .item #color {
-  font-size: medium;
-  font-weight: normal;
+  font-weight: 100;
 }
 
 .item #name {
-  margin-top: 5px;
-  font-size: xx-large;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .item #price {
@@ -62,11 +67,11 @@
   height: 135px;
   margin-top: 50px;
   font-size: small;
-  color: rgb(0, 0, 0, 0.3);
+  color: rgb(0,0,0,0.3);
 }
 
 .item #size #mode {
-  color: rgb(0, 0, 0, 0.3);
+  color: rgb(0,0,0,0.3);
   font-size: small;
 }
 
@@ -76,7 +81,7 @@
   margin-left: 1px;
 }
 
-.item #size .mode:hover{
+.item #size .mode:hover {
   cursor: pointer;
   background-color: tomato;
 }
@@ -85,7 +90,7 @@
   margin-top: 7.5px;
   margin-left: 367.5px;
   font-size: x-small;
-  color:#000000b7;
+  color: #000000b7;
   text-align: right;
 }
 
@@ -96,10 +101,11 @@
   background-color: black;
   font-size: x-small;
   margin-top: 50px;
-  transition: all 150ms ease-out;
+  transition: all 150ms
+    ease-out;
 }
 
-.cart-button:hover{
+.cart-button:hover {
   text-decoration: underline;
   cursor: pointer;
   font-size: small;
