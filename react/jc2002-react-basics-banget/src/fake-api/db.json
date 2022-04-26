@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "date": "04-05-2015",
+      "action": "Sukses bergaji 10 juta/bulan",
+      "isDone": true
+    },
+    {
+      "date": "2022-05-07",
+      "action": "oioi",
+      "isDone": true,
+      "id": 2
+    },
+    {
+      "date": "2022-05-07",
+      "action": "turu ges",
+      "isDone": false,
+      "id": 3
+    }
+  ]
+}
