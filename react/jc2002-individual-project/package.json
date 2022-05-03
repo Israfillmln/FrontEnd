@@ -1,0 +1,26 @@
+{
+  "name": "jc2002-individual-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "formik": "^2.2.9",
+    "js-cookie": "^3.0.1",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.1",
+    "redux": "^4.2.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
