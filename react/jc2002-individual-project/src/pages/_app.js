@@ -1,19 +1,19 @@
-import { ChakraProvider } from '@chakra-ui/react';
 import '../styles/globals.css';
+import { ChakraProvider } from '@chakra-ui/react';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import rootReducer from '../redux/store'
-import thunk from 'redux-thunk'
-
-const store = createStore(rootReducer, applyMiddleware(thunk));
+import store from '../redux/store'
+import AuthProvider from '../component/AuthProvider';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Provider>
+    <Provider store={store}>
      <ChakraProvider>
+       <AuthProvider>
         <Component {...pageProps} />
+       </AuthProvider>
       </ChakraProvider>
     </Provider>
+
   )
 }
 

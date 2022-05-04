@@ -1,0 +1,12 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "seto",
+            "email": "seto@mail.com",
+            "fullname": "seto zuckerberg",
+            "password": "password123"
+        }
+    ],
+    "products": []
+}
